@@ -8,7 +8,7 @@ int main() {
    
    do{
        int product = number * count;
-       printf("%d*%d = %d\n", number, count, product);
+       printf("%d * %d = %d\n", number, count, product);
        count = count - 1;
        
    } while ((count <= 10) && (count > 0));
