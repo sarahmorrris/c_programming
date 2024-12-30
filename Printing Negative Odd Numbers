@@ -1,0 +1,23 @@
+// Writing a program that takes input from user and prints input if value is a negative odd number
+#include <stdio.h>
+
+int main() {
+   
+    while(1) { 
+        int number;
+        printf("Enter a number: ");
+        scanf("%d", &number);
+
+        if ((number <0) & ((number % 2) != 0)) {
+           printf("%d\n", number);
+        }
+        if ((number < 0) & ((number % 2) == 0)){
+            printf("Negative Even\n");
+        }
+        if ((number > 0) & (number % 2) != 0){
+            printf("Positive Value\n");
+        }
+        
+    }
+
+    return 0;
